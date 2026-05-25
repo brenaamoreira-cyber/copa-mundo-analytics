@@ -1,0 +1,8 @@
+﻿credentials.json
+.env
+venv/
+__pycache__/
+*.pyc
+coleta/data/
+.DS_Store
+*.pbix
