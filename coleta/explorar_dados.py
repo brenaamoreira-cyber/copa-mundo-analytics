@@ -1,0 +1,17 @@
+import pandas as pd
+df_copas=pd.read = pd.read_csv('coleta/data/WorldCups.csv')
+df_partidas=pd.read = pd.read_csv('coleta/data/WorldCupMatches.csv')
+df_jogadores=pd.read = pd.read_csv('coleta/data/WorldCupPlayers.csv')
+
+print('=== WorldCups.csv ===')
+print(df_copas.head())
+print(df_copas.columns.tolist())
+print(f'Linhas: {len(df_copas)}')
+print('=== WorldCupMatches.csv ===')
+print(df_partidas.head())
+print(df_partidas.columns.tolist())
+print(f'Linhas: {len(df_partidas)}')
+print('=== WorldCupPlayers.csv ===')
+print(df_jogadores.head())
+print(df_jogadores.columns.tolist())
+print(f'Linhas: {len(df_jogadores)}')
